@@ -1,3 +1,7 @@
 /build
 androidTest
 test
+
+# Gradle files
+.gradle/
+build/
