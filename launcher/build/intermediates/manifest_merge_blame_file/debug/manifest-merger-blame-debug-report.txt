@@ -1,0 +1,192 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.DefaultCompany.Myproject"
+4    android:installLocation="preferExternal"
+5    android:versionCode="1"
+6    android:versionName="0.1" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="22"
+9-->E:\UAndroid\launcher\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="32" />
+10-->E:\UAndroid\launcher\src\main\AndroidManifest.xml
+11
+12    <supports-screens
+12-->E:\UAndroid\launcher\src\main\AndroidManifest.xml:17:3-163
+13        android:anyDensity="true"
+13-->E:\UAndroid\launcher\src\main\AndroidManifest.xml:17:135-160
+14        android:largeScreens="true"
+14-->E:\UAndroid\launcher\src\main\AndroidManifest.xml:17:78-105
+15        android:normalScreens="true"
+15-->E:\UAndroid\launcher\src\main\AndroidManifest.xml:17:49-77
+16        android:smallScreens="true"
+16-->E:\UAndroid\launcher\src\main\AndroidManifest.xml:17:21-48
+17        android:xlargeScreens="true" />
+17-->E:\UAndroid\launcher\src\main\AndroidManifest.xml:17:106-134
+18
+19    <uses-permission android:name="android.permission.INTERNET" />
+19-->[:unityLibrary] E:\UAndroid\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-67
+19-->[:unityLibrary] E:\UAndroid\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-64
+20
+21    <uses-feature android:glEsVersion="0x00030000" />
+21-->[:unityLibrary] E:\UAndroid\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:5-54
+21-->[:unityLibrary] E:\UAndroid\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:19-51
+22    <uses-feature
+22-->[:unityLibrary] E:\UAndroid\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:5-15:36
+23        android:name="android.hardware.vulkan.version"
+23-->[:unityLibrary] E:\UAndroid\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:9-55
+24        android:required="false" />
+24-->[:unityLibrary] E:\UAndroid\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:9-33
+25    <uses-feature
+25-->[:unityLibrary] E:\UAndroid\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:5-18:36
+26        android:name="android.hardware.touchscreen"
+26-->[:unityLibrary] E:\UAndroid\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:9-52
+27        android:required="false" />
+27-->[:unityLibrary] E:\UAndroid\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:9-33
+28    <uses-feature
+28-->[:unityLibrary] E:\UAndroid\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:5-21:36
+29        android:name="android.hardware.touchscreen.multitouch"
+29-->[:unityLibrary] E:\UAndroid\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:9-63
+30        android:required="false" />
+30-->[:unityLibrary] E:\UAndroid\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:21:9-33
+31    <uses-feature
+31-->[:unityLibrary] E:\UAndroid\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:5-24:36
+32        android:name="android.hardware.touchscreen.multitouch.distinct"
+32-->[:unityLibrary] E:\UAndroid\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:23:9-72
+33        android:required="false" />
+33-->[:unityLibrary] E:\UAndroid\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:24:9-33
+34
+35    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+35-->[com.google.android.exoplayer:exoplayer-core:2.19.1] C:\Users\ywm\.gradle\caches\transforms-3\5e5c91a0c2c98a54e2b3d7dae274097a\transformed\exoplayer-core-2.19.1\AndroidManifest.xml:24:5-79
+35-->[com.google.android.exoplayer:exoplayer-core:2.19.1] C:\Users\ywm\.gradle\caches\transforms-3\5e5c91a0c2c98a54e2b3d7dae274097a\transformed\exoplayer-core-2.19.1\AndroidManifest.xml:24:22-76
+36
+37    <application
+37-->E:\UAndroid\launcher\src\main\AndroidManifest.xml:3:3-16:17
+38        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+38-->[androidx.core:core:1.8.0] C:\Users\ywm\.gradle\caches\transforms-3\2514e5b71792fea5524e295b9cb1fe3f\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+39        android:debuggable="true"
+40        android:extractNativeLibs="true"
+40-->[:unityLibrary] E:\UAndroid\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:26:18-50
+41        android:icon="@mipmap/app_icon"
+41-->E:\UAndroid\launcher\src\main\AndroidManifest.xml:3:49-80
+42        android:label="@string/app_name"
+42-->E:\UAndroid\launcher\src\main\AndroidManifest.xml:3:16-48
+43        android:testOnly="true" >
+44        <activity
+44-->E:\UAndroid\launcher\src\main\AndroidManifest.xml:4:5-14:16
+45            android:name="com.ds.unity.MainActivity"
+45-->E:\UAndroid\launcher\src\main\AndroidManifest.xml:5:9-49
+46            android:exported="true"
+46-->E:\UAndroid\launcher\src\main\AndroidManifest.xml:6:9-32
+47            android:launchMode="singleTask"
+47-->E:\UAndroid\launcher\src\main\AndroidManifest.xml:7:9-40
+48            android:screenOrientation="landscape" >
+48-->E:\UAndroid\launcher\src\main\AndroidManifest.xml:8:9-46
+49            <intent-filter>
+49-->E:\UAndroid\launcher\src\main\AndroidManifest.xml:9:7-13:23
+50                <action android:name="android.intent.action.MAIN" />
+50-->E:\UAndroid\launcher\src\main\AndroidManifest.xml:10:9-61
+50-->E:\UAndroid\launcher\src\main\AndroidManifest.xml:10:17-58
+51
+52                <category android:name="android.intent.category.DEFAULT" />
+52-->E:\UAndroid\launcher\src\main\AndroidManifest.xml:11:9-68
+52-->E:\UAndroid\launcher\src\main\AndroidManifest.xml:11:19-65
+53                <category android:name="android.intent.category.LAUNCHER" />
+53-->E:\UAndroid\launcher\src\main\AndroidManifest.xml:12:9-69
+53-->E:\UAndroid\launcher\src\main\AndroidManifest.xml:12:19-66
+54            </intent-filter>
+55        </activity>
+56
+57        <meta-data
+57-->[:unityLibrary] E:\UAndroid\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:27:9-29:33
+58            android:name="unity.splash-mode"
+58-->[:unityLibrary] E:\UAndroid\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:28:13-45
+59            android:value="0" />
+59-->[:unityLibrary] E:\UAndroid\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:29:13-30
+60        <meta-data
+60-->[:unityLibrary] E:\UAndroid\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:30:9-32:36
+61            android:name="unity.splash-enable"
+61-->[:unityLibrary] E:\UAndroid\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:31:13-47
+62            android:value="True" />
+62-->[:unityLibrary] E:\UAndroid\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:32:13-33
+63        <meta-data
+63-->[:unityLibrary] E:\UAndroid\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:33:9-35:36
+64            android:name="unity.launch-fullscreen"
+64-->[:unityLibrary] E:\UAndroid\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:34:13-51
+65            android:value="True" />
+65-->[:unityLibrary] E:\UAndroid\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:35:13-33
+66        <meta-data
+66-->[:unityLibrary] E:\UAndroid\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:36:9-38:37
+67            android:name="unity.allow-resizable-window"
+67-->[:unityLibrary] E:\UAndroid\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:37:13-56
+68            android:value="False" />
+68-->[:unityLibrary] E:\UAndroid\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:38:13-34
+69        <meta-data
+69-->[:unityLibrary] E:\UAndroid\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:39:9-41:50
+70            android:name="notch.config"
+70-->[:unityLibrary] E:\UAndroid\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:40:13-40
+71            android:value="portrait|landscape" />
+71-->[:unityLibrary] E:\UAndroid\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:41:13-47
+72        <meta-data
+72-->[:unityLibrary] E:\UAndroid\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:42:9-44:36
+73            android:name="unity.auto-report-fully-drawn"
+73-->[:unityLibrary] E:\UAndroid\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:43:13-57
+74            android:value="true" />
+74-->[:unityLibrary] E:\UAndroid\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:44:13-33
+75
+76        <activity
+76-->[:unityLibrary] E:\UAndroid\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:46:9-67:20
+77            android:name="com.unity3d.player.UnityPlayerActivity"
+77-->[:unityLibrary] E:\UAndroid\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:47:13-66
+78            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+78-->[:unityLibrary] E:\UAndroid\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:48:13-194
+79            android:exported="true"
+79-->[:unityLibrary] E:\UAndroid\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:49:13-36
+80            android:hardwareAccelerated="false"
+80-->[:unityLibrary] E:\UAndroid\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:50:13-48
+81            android:launchMode="singleTask"
+81-->[:unityLibrary] E:\UAndroid\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:51:13-44
+82            android:resizeableActivity="false"
+82-->[:unityLibrary] E:\UAndroid\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:52:13-47
+83            android:screenOrientation="fullUser"
+83-->[:unityLibrary] E:\UAndroid\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:53:13-49
+84            android:theme="@style/UnityThemeSelector" >
+84-->[:unityLibrary] E:\UAndroid\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:54:13-54
+85            <intent-filter>
+85-->[:unityLibrary] E:\UAndroid\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:55:13-59:29
+86                <action android:name="android.intent.action.UnityPlay" />
+86-->[:unityLibrary] E:\UAndroid\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:56:17-74
+86-->[:unityLibrary] E:\UAndroid\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:56:25-71
+87
+88                <category android:name="android.intent.category.DEFAULT" />
+88-->E:\UAndroid\launcher\src\main\AndroidManifest.xml:11:9-68
+88-->E:\UAndroid\launcher\src\main\AndroidManifest.xml:11:19-65
+89            </intent-filter>
+90
+91            <meta-data
+91-->[:unityLibrary] E:\UAndroid\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:61:13-63:40
+92                android:name="unityplayer.UnityActivity"
+92-->[:unityLibrary] E:\UAndroid\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:62:17-57
+93                android:value="true" />
+93-->[:unityLibrary] E:\UAndroid\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:63:17-37
+94            <meta-data
+94-->[:unityLibrary] E:\UAndroid\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:64:13-66:40
+95                android:name="notch_support"
+95-->[:unityLibrary] E:\UAndroid\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:65:17-45
+96                android:value="true" />
+96-->[:unityLibrary] E:\UAndroid\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:66:17-37
+97        </activity>
+98
+99        <provider
+99-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\ywm\.gradle\caches\transforms-3\152835b1f662e6d40d4faab391319eb5\transformed\lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+100            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+100-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\ywm\.gradle\caches\transforms-3\152835b1f662e6d40d4faab391319eb5\transformed\lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+101            android:authorities="com.DefaultCompany.Myproject.lifecycle-process"
+101-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\ywm\.gradle\caches\transforms-3\152835b1f662e6d40d4faab391319eb5\transformed\lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+102            android:exported="false"
+102-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\ywm\.gradle\caches\transforms-3\152835b1f662e6d40d4faab391319eb5\transformed\lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+103            android:multiprocess="true" />
+103-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\ywm\.gradle\caches\transforms-3\152835b1f662e6d40d4faab391319eb5\transformed\lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+104    </application>
+105
+106</manifest>
