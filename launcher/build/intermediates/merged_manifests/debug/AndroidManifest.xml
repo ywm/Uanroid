@@ -39,8 +39,7 @@
         android:debuggable="true"
         android:extractNativeLibs="true"
         android:icon="@mipmap/app_icon"
-        android:label="@string/app_name"
-        android:testOnly="true" >
+        android:label="@string/app_name" >
         <activity
             android:name="com.ds.unity.MainActivity"
             android:exported="true"

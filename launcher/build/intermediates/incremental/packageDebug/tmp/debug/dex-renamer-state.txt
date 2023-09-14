@@ -1,4 +1,4 @@
-#Tue Sep 12 23:29:09 CST 2023
+#Thu Sep 14 12:56:05 CST 2023
 path.4=12/classes.dex
 path.3=11/classes.dex
 path.2=0/classes.dex
@@ -9,20 +9,20 @@ path.7=9/classes.dex
 path.6=5/classes.dex
 path.5=4/classes.dex
 path.0=classes.dex
-base.4=E\:\\UAndroid\\launcher\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\12\\classes.dex
-base.3=E\:\\UAndroid\\launcher\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\11\\classes.dex
-base.2=E\:\\UAndroid\\launcher\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.1=E\:\\UAndroid\\launcher\\build\\intermediates\\dex\\debug\\mergeLibDexDebug\\1\\classes.dex
-base.0=E\:\\UAndroid\\launcher\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.4=/Volumes/SumData/个人/UAndroid/launcher/build/intermediates/dex/debug/mergeProjectDexDebug/12/classes.dex
+base.3=/Volumes/SumData/个人/UAndroid/launcher/build/intermediates/dex/debug/mergeProjectDexDebug/11/classes.dex
+base.2=/Volumes/SumData/个人/UAndroid/launcher/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
+base.1=/Volumes/SumData/个人/UAndroid/launcher/build/intermediates/dex/debug/mergeLibDexDebug/1/classes.dex
+base.0=/Volumes/SumData/个人/UAndroid/launcher/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
 renamed.3=classes4.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex
 renamed.7=classes8.dex
-base.8=E\:\\UAndroid\\launcher\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
+base.8=/Volumes/SumData/个人/UAndroid/launcher/build/intermediates/dex/debug/mergeExtDexDebug/classes2.dex
 renamed.6=classes7.dex
-base.7=E\:\\UAndroid\\launcher\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\9\\classes.dex
+base.7=/Volumes/SumData/个人/UAndroid/launcher/build/intermediates/dex/debug/mergeProjectDexDebug/9/classes.dex
 renamed.5=classes6.dex
-base.6=E\:\\UAndroid\\launcher\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\5\\classes.dex
+base.6=/Volumes/SumData/个人/UAndroid/launcher/build/intermediates/dex/debug/mergeProjectDexDebug/5/classes.dex
 renamed.4=classes5.dex
-base.5=E\:\\UAndroid\\launcher\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\4\\classes.dex
+base.5=/Volumes/SumData/个人/UAndroid/launcher/build/intermediates/dex/debug/mergeProjectDexDebug/4/classes.dex

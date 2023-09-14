@@ -1,26 +1,26 @@
 [
     {
-        "merged": "E:\\UAndroid\\launcher\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_background.png.flat",
-        "source": "E:\\UAndroid\\launcher\\src\\main\\res\\mipmap-mdpi\\ic_launcher_background.png"
+        "merged": "/Volumes/SumData/个人/UAndroid/launcher/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher_background.png.flat",
+        "source": "/Volumes/SumData/个人/UAndroid/launcher/src/main/res/mipmap-mdpi/ic_launcher_background.png"
     },
     {
-        "merged": "E:\\UAndroid\\launcher\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_app_icon.png.flat",
-        "source": "E:\\UAndroid\\launcher\\src\\main\\res\\mipmap-mdpi\\app_icon.png"
+        "merged": "/Volumes/SumData/个人/UAndroid/launcher/build/intermediates/merged_res/debug/mipmap-mdpi_app_icon.png.flat",
+        "source": "/Volumes/SumData/个人/UAndroid/launcher/src/main/res/mipmap-mdpi/app_icon.png"
     },
     {
-        "merged": "E:\\UAndroid\\launcher\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
-        "source": "E:\\UAndroid\\launcher\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
+        "merged": "/Volumes/SumData/个人/UAndroid/launcher/build/intermediates/merged_res/debug/mipmap-anydpi-v26_app_icon.xml.flat",
+        "source": "/Volumes/SumData/个人/UAndroid/launcher/src/main/res/mipmap-anydpi-v26/app_icon.xml"
     },
     {
-        "merged": "E:\\UAndroid\\launcher\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_app_icon.xml.flat",
-        "source": "E:\\UAndroid\\launcher\\src\\main\\res\\mipmap-anydpi-v26\\app_icon.xml"
+        "merged": "/Volumes/SumData/个人/UAndroid/launcher/build/intermediates/merged_res/debug/layout_activity_main.xml.flat",
+        "source": "/Volumes/SumData/个人/UAndroid/launcher/src/main/res/layout/activity_main.xml"
     },
     {
-        "merged": "E:\\UAndroid\\launcher\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
-        "source": "E:\\UAndroid\\launcher\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "/Volumes/SumData/个人/UAndroid/launcher/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "/Volumes/SumData/个人/UAndroid/launcher/src/main/res/mipmap-mdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "E:\\UAndroid\\launcher\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_app_icon_round.xml.flat",
-        "source": "E:\\UAndroid\\launcher\\src\\main\\res\\mipmap-anydpi-v26\\app_icon_round.xml"
+        "merged": "/Volumes/SumData/个人/UAndroid/launcher/build/intermediates/merged_res/debug/mipmap-anydpi-v26_app_icon_round.xml.flat",
+        "source": "/Volumes/SumData/个人/UAndroid/launcher/src/main/res/mipmap-anydpi-v26/app_icon_round.xml"
     }
 ]

@@ -1,67 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\UAndroid\\launcher\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
+            "outputFile": "/Volumes/SumData/个人/UAndroid/launcher/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v21/values-v21.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\ywm\\.gradle\\caches\\transforms-3\\d5ecc1feafe6a3de842a7a22d586d27e\\transformed\\media-1.6.0\\res\\values-v21\\values-v21.xml",
-                    "from": {
-                        "startLines": "2,5,8,11",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,223,386,554",
-                        "endLines": "4,7,10,13",
-                        "endColumns": "12,12,12,12",
-                        "endOffsets": "218,381,549,716"
-                    },
-                    "to": {
-                        "startLines": "274,277,281,285",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "19976,20144,20433,20729",
-                        "endLines": "276,279,283,287",
-                        "endColumns": "12,12,12,12",
-                        "endOffsets": "20139,20302,20596,20891"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\ywm\\.gradle\\caches\\transforms-3\\6a500b33c3bc6b388469161a84d1580b\\transformed\\exoplayer-ui-2.19.1\\res\\values-v21\\values-v21.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,114",
-                        "endLines": "2,7",
-                        "endColumns": "58,10",
-                        "endOffsets": "109,396"
-                    },
-                    "to": {
-                        "startLines": "3,229",
-                        "startColumns": "4,4",
-                        "startOffsets": "173,17098",
-                        "endLines": "3,233",
-                        "endColumns": "58,10",
-                        "endOffsets": "227,17380"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\ywm\\.gradle\\caches\\transforms-3\\2514e5b71792fea5524e295b9cb1fe3f\\transformed\\core-1.8.0\\res\\values-v21\\values-v21.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,13",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,173,237,304,368,484,610,736,864,1036",
-                        "endLines": "2,3,4,5,6,7,8,9,12,17",
-                        "endColumns": "117,63,66,63,115,125,125,127,12,12",
-                        "endOffsets": "168,232,299,363,479,605,731,859,1031,1383"
-                    },
-                    "to": {
-                        "startLines": "2,4,5,6,272,273,280,284,288,291",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,232,296,363,19734,19850,20307,20601,20896,21068",
-                        "endLines": "2,4,5,6,272,273,280,284,290,295",
-                        "endColumns": "117,63,66,63,115,125,125,127,12,12",
-                        "endOffsets": "168,291,358,422,19845,19971,20428,20724,21063,21415"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\ywm\\.gradle\\caches\\transforms-3\\195610d535c43454421509bc6954c1cc\\transformed\\appcompat-1.2.0\\res\\values-v21\\values-v21.xml",
+                    "source": "/Users/ywm/.gradle/caches/transforms-3/509b5097c0070ee4941faca3e7cc1b95/transformed/appcompat-1.2.0/res/values-v21/values-v21.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,17,19,20,21,22,24,26,27,28,29,30,32,34,36,38,40,42,43,48,50,52,53,54,56,58,59,60,61,62,63,106,109,152,155,158,160,162,164,167,171,174,175,176,179,180,181,182,183,184,187,188,190,192,194,196,200,202,203,204,205,207,211,213,215,216,217,218,219,220,222,223,224,234,235,236,248",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -80,7 +23,45 @@
                     }
                 },
                 {
-                    "source": "E:\\UAndroid\\unityLibrary\\build\\intermediates\\packaged_res\\debug\\values-v21\\values-v21.xml",
+                    "source": "/Users/ywm/.gradle/caches/transforms-3/267832d4cb44ddf872cde20f8a557567/transformed/media-1.6.0/res/values-v21/values-v21.xml",
+                    "from": {
+                        "startLines": "2,5,8,11",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,223,386,554",
+                        "endLines": "4,7,10,13",
+                        "endColumns": "12,12,12,12",
+                        "endOffsets": "218,381,549,716"
+                    },
+                    "to": {
+                        "startLines": "274,277,281,285",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "19976,20144,20433,20729",
+                        "endLines": "276,279,283,287",
+                        "endColumns": "12,12,12,12",
+                        "endOffsets": "20139,20302,20596,20891"
+                    }
+                },
+                {
+                    "source": "/Users/ywm/.gradle/caches/transforms-3/85955f880f85d1f5982a457ac63b9b33/transformed/core-1.8.0/res/values-v21/values-v21.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,13",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,173,237,304,368,484,610,736,864,1036",
+                        "endLines": "2,3,4,5,6,7,8,9,12,17",
+                        "endColumns": "117,63,66,63,115,125,125,127,12,12",
+                        "endOffsets": "168,232,299,363,479,605,731,859,1031,1383"
+                    },
+                    "to": {
+                        "startLines": "2,4,5,6,272,273,280,284,288,291",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,232,296,363,19734,19850,20307,20601,20896,21068",
+                        "endLines": "2,4,5,6,272,273,280,284,290,295",
+                        "endColumns": "117,63,66,63,115,125,125,127,12,12",
+                        "endOffsets": "168,291,358,422,19845,19971,20428,20724,21063,21415"
+                    }
+                },
+                {
+                    "source": "/Volumes/SumData/个人/UAndroid/unityLibrary/build/intermediates/packaged_res/debug/values-v21/values-v21.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -96,6 +77,25 @@
                         "endLines": "228",
                         "endColumns": "8",
                         "endOffsets": "17093"
+                    }
+                },
+                {
+                    "source": "/Users/ywm/.gradle/caches/transforms-3/006aebf145bb4484970a36658b84d4c7/transformed/exoplayer-ui-2.19.1/res/values-v21/values-v21.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,114",
+                        "endLines": "2,7",
+                        "endColumns": "58,10",
+                        "endOffsets": "109,396"
+                    },
+                    "to": {
+                        "startLines": "3,229",
+                        "startColumns": "4,4",
+                        "startOffsets": "173,17098",
+                        "endLines": "3,233",
+                        "endColumns": "58,10",
+                        "endOffsets": "227,17380"
                     }
                 }
             ]
