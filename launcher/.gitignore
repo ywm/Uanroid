@@ -1,9 +1,7 @@
 /build
 androidTest
 test
-build/
-
-
+/*.iml
 # Gradle files
 .gradle/
 /*/build/

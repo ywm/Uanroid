@@ -4,10 +4,11 @@ buildscript {
     }
     repositories {
 
+        maven { url 'https://repo1.maven.org/maven2/' }
+        maven { url "https://jitpack.io" }
+        google()
         mavenLocal()
         mavenCentral()
-        maven { url 'https://repo1.maven.org/maven2/' }
-        google()
     }
     dependencies {
         classpath "com.android.tools.build:gradle:7.1.2"
@@ -24,6 +25,16 @@ plugins {
     id 'com.android.application' version '7.1.2' apply false
     id 'com.android.library' version '7.1.2' apply false
     
+}
+
+allprojects {
+    repositories {
+        maven { url "https://jitpack.io" }
+        google()
+        mavenCentral()
+        jcenter()
+
+    }
 }
 
 ext {
