@@ -20,7 +20,7 @@ gradle-plugin
 **/bakApk/**
 
 # Gradle files
-.gradle/
+/.gradle
 build/
 /*/build/
 

@@ -3,12 +3,11 @@ buildscript {
         kotlin_version = '1.9.0'
     }
     repositories {
-
+        mavenCentral()
+        google()
         maven { url 'https://repo1.maven.org/maven2/' }
         maven { url "https://jitpack.io" }
-        google()
         mavenLocal()
-        mavenCentral()
     }
     dependencies {
         classpath "com.android.tools.build:gradle:7.1.2"
@@ -29,11 +28,9 @@ plugins {
 
 allprojects {
     repositories {
-        maven { url "https://jitpack.io" }
-        google()
         mavenCentral()
-        jcenter()
-
+        google()
+        maven { url "https://jitpack.io" }
     }
 }
 
@@ -43,7 +40,6 @@ ext {
     minSdkVersion = 20
     targetSdkVersion = 30
 
-    maven_group = "com.jizhi"
 
     kotlinx_coroutines_version = "1.7.3"
     androidx_core_ktx_version = "1.12.0"

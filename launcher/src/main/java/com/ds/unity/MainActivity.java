@@ -11,6 +11,7 @@ import androidx.annotation.Nullable;
 import com.ds.unity.databinding.ActivityMainBinding;
 import com.ds.unity.ui.MySplashView;
 import com.igexin.base.api.GTSchedulerManager;
+import com.tencent.smtt.utils.LogFileUtils;
 
 import org.json.JSONObject;
 
@@ -38,7 +39,7 @@ public class MainActivity extends Activity {
         mContext = this;
         mainBinding = ActivityMainBinding.inflate(this.getLayoutInflater());
         setContentView(mainBinding.getRoot());
-
+        Log.v(TAG,"on create");
         DCUniMPSDK.getInstance().setOnUniMPEventCallBack(new IOnUniMPEventCallBack() {
             @Override
             public void onUniMPEventReceive(String s, String s1, Object o, DCUniMPJSCallback dcUniMPJSCallback) {
@@ -47,19 +48,6 @@ public class MainActivity extends Activity {
                 intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 DCUniMPSDK.getInstance().startActivityForUniMPTask(s, intent);
 
-            }
-        });
-        DCUniMPSDK.getInstance().setCapsuleMenuButtonClickCallBack(new IDCUniMPOnCapsuleMenuButtontCallBack() {
-            @Override
-            public void menuButtonClicked(String s) {
-                Log.i(TAG, "menuButtonClicked111: s");
-            }
-        });
-
-        DCUniMPSDK.getInstance().setCapsuleMenuButtonClickCallBack(new IDCUniMPOnCapsuleMenuButtontCallBack() {
-            @Override
-            public void menuButtonClicked(String s) {
-                Log.i(TAG, "menuButtonClicked2222: s");
             }
         });
 
@@ -100,17 +88,20 @@ public class MainActivity extends Activity {
                 }
             }
         });
-        try {
-            UniMPOpenConfiguration uniMPOpenConfiguration = new UniMPOpenConfiguration();
-            uniMPOpenConfiguration.splashClass = MySplashView.class;
-            uniMPOpenConfiguration.extraData.put("darkmode", "light");
-            IUniMP uniMP = DCUniMPSDK.getInstance().openUniMP(mContext,"__UNI__B61D13B", uniMPOpenConfiguration);
-            mUniMPCaches.put(uniMP.getAppid(), uniMP);
-        } catch (Exception e) {
-            throw new RuntimeException(e);
-        }
-
-
+        runOnUiThread(new Runnable() {
+            @Override
+            public void run() {
+                try {
+                    UniMPOpenConfiguration uniMPOpenConfiguration = new UniMPOpenConfiguration();
+                    uniMPOpenConfiguration.splashClass = MySplashView.class;
+                    uniMPOpenConfiguration.extraData.put("darkmode", "light");
+                    IUniMP uniMP = DCUniMPSDK.getInstance().openUniMP(mContext,"__UNI__B61D13B", uniMPOpenConfiguration);
+                    mUniMPCaches.put(uniMP.getAppid(), uniMP);
+                } catch (Exception e) {
+                    throw new RuntimeException(e);
+                }
+            }
+        });
     }
 
     @Override
